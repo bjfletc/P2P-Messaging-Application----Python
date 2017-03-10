@@ -24,8 +24,8 @@ import SocketServer            # socket module used for opening an internet sock
 class sMessageApp(SocketServer.BaseRequestHandler):
 	"""
 	##############################################
-    The request handler class for our server.
-    ##############################################
+        The request handler class for our server.
+        ##############################################
 	"""
 
 	def handle(self):
